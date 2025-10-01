@@ -1,0 +1,178 @@
+
+
+/*https://framerusercontent.com/images/kGNP61CpFzitMEIVe88KZdgRPF8.jpg
+https://plus.unsplash.com/premium_photo-1683309568772-57011d6c1b7b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D
+
+
+*/
+
+
+
+.pretty-checkbox {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #185a9d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.to-do-list{
+  text-align: center;
+  padding:1em;
+}
+
+
+.input {
+  margin-top: 40px;
+ border: none;
+ padding: 1rem;
+ border-radius: 1rem;
+ background: #e8e8e8;
+ box-shadow: 5px 5px 7px #ef483f,
+		-5px -5px 7px #ef483f;
+ transition: 0.3s;
+}
+
+.input:focus {
+ outline-color: #e8e8e8;
+ background: #e8e8e8;
+ box-shadow: inset 20px 20px 60px #c5c5c5,
+		inset -20px -20px 60px #ffffff;
+ transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+.cssbuttons-io-button {
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+   #ef483f 0%,
+    #f98f53 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  margin-left: 20px;
+}
+
+.cssbuttons-io-button2 {
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgb(155, 63, 13) 0%,
+    rgb(203, 112, 79) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  margin-left: 20px;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 6px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button2 svg {
+  margin-right: 6px;
+}
+
+.cssbuttons-io-button2:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button2:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+
+
+
+
+.OrderedList{
+  
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 40px;
+  row-gap: 10px;
+
+}
+
+.divList{
+  
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  padding: 40px;
+  column-gap: 25px;
+  flex-wrap: wrap;
+  row-gap: 25px;
+
+}
+
+
+.subtask-simple-wrapper
+{
+  padding: 11.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2em;
+  color: #333;
+  color:#ffffff;
+}
+
+
+
+
+/* Flair for To-Do-List title */
+.fancy-title {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 3rem;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+
