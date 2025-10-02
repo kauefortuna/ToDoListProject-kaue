@@ -144,6 +144,7 @@ const StyledWrapper = styled.div`
     flex-direction: column;
     height: 220px;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .message-list {
