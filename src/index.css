@@ -7,9 +7,6 @@ https://plus.unsplash.com/premium_photo-1683309568772-57011d6c1b7b?fm=jpg&q=60&w
 */
 
 
-*{
-  overflow-x: hidden;
-}
 .pretty-checkbox {
   display: inline-block;
   padding: 10px 20px;
