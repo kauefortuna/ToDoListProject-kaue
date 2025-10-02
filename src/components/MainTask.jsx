@@ -144,7 +144,7 @@ const StyledWrapper = styled.div`
     flex-direction: column;
     height: 220px;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     max-width: 100%;
     box-sizing: border-box;
   }
