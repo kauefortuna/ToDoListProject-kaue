@@ -120,9 +120,6 @@ const StyledWrapper = styled.div`
     white-space: normal;
     margin-bottom: 10px;
     word-break: break-word;
-    overflow-x: hidden;
-    max-width: 100%;
-    box-sizing: border-box;
   }
   .card {
     opacity: 0.85;
@@ -162,9 +159,6 @@ const StyledWrapper = styled.div`
     padding: 0;
     margin: 0;
     list-style-type: none;
-    overflow-x: hidden;
-    max-width: 100%;
-    box-sizing: border-box;
   }
 
   .chat-input {
