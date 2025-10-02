@@ -102,7 +102,7 @@ const StyledWrapper = styled.div`
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 170px;
+    max-width: 130px;
   }
   td {
     text-align: center;
@@ -137,16 +137,6 @@ const StyledWrapper = styled.div`
     font-size: 18px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  }
-
-  .chat-window {
-    display: flex;
-    flex-direction: column;
-    height: 220px;
-    overflow-y: auto;
-    overflow-x: hidden !important;
-    max-width: 100%;
-    box-sizing: border-box;
   }
 
   .message-list {

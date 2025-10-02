@@ -6,8 +6,19 @@ https://plus.unsplash.com/premium_photo-1683309568772-57011d6c1b7b?fm=jpg&q=60&w
 
 */
 
+
+  .chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
 body{
- overflow-x: hidden;
+ overflow-x: hidden;;
 }
 
 .pretty-checkbox {
